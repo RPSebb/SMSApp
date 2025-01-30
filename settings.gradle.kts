@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SMSApp"
 include(":app")
+include(":processor")

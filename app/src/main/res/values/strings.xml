@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMSApp</string>
+    <string name="app_name">SmsApp</string>
+    <string name="permission_screen_title">Required permissions</string>
+    <string name="permission_screen_description">"Permissions below are required for application to work :"</string>
+    <string name="permission_sms"><b>view</b> and <b>send</b> sms</string>
+    <string name="permission_contacts">access <b>contacts</b></string>
+    <string name="permission_screen_button_request">REQUEST PERMISSIONS</string>
+    <string name="permission_screen_button_settings">OPEN SETTINGS</string>
 </resources>
