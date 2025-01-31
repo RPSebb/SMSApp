@@ -25,11 +25,13 @@ Receive functionnality is done with a BroadcastReceiver :
   - Then try to retrieve the conversation base on thread_id
 
 There is 2 screens :
+
   - HomeScreen where all conversations are listed
 
 ![HomeScreen](https://github.com/user-attachments/assets/a0ec6d8e-94d2-4a61-9912-4814926208fa)
   
+
   
   - ConversationScreen where all messages from a conversation are listed, and where message can be send
 
-![ConversationScreen](https://github.com/user-attachments/assets/1ad1f7ca-80e4-437d-81f6-bf81a5996b08)
+![ConversationScreen](https://github.com/user-attachments/assets/6e1a7899-3da5-471d-b37e-b1a76224af7f)
