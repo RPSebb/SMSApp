@@ -97,10 +97,6 @@ Processeur d'annotations KSP qui :
 - **Vérification des notifications** et accusés de réception
 - **Gestion d'un refus de permissions** et redirection vers les paramètres
 
-### Limitations de test
-
-Dans l'environnement de développement actuel, l'analyse statique du code source est possible, mais l'exécution et les tests de l'application ne peuvent pas être effectués (pas de runtime Android disponible).
-
 ## Résumé
 
 SMSApp offre une base simple pour consulter et échanger des SMS avec :
@@ -109,5 +105,3 @@ SMSApp offre une base simple pour consulter et échanger des SMS avec :
 - Un module KSP pour le mapping automatique des modèles
 - Une gestion complète de l'envoi et de la réception de SMS
 - Un système de notifications personnalisées
-
-Le projet illustre les bonnes pratiques Android modernes avec l'usage de Hilt pour l'injection de dépendances, des flux Compose pour la réactivité, et un processeur KSP qui facilite l'accès aux données.
