@@ -56,24 +56,6 @@ Module **KSP** qui analyse les modèles annotés et génère un `ModelFactory` p
 3. Le récepteur émet un événement dans le `SharedFlow` de `SmsApplication` ; les ViewModels l'observent pour rafraîchir l'UI
 4. `NotificationService` génère une notification
 
-## Tests
-
-Dans cet environnement, je ne peux pas exécuter ni tester l'application (pas de runtime Android). 
-
-### Pour tester localement :
-
-1. Importer le projet dans Android Studio
-2. Activer KSP si besoin
-3. Lancer sur un émulateur ou un appareil réel avec capacité SMS
-4. Accorder les permissions (SEND/RECEIVE/READ/WRITE SMS)
-
-### Scénarios de test :
-
-- Envoi d'un SMS depuis l'écran de conversation
-- Réception d'un SMS en avant-plan et arrière-plan
-- Vérification des notifications et accusés de réception
-- Gestion d'un refus de permissions et redirection vers les paramètres
-
 ## Technologies utilisées
 
 - **Kotlin** – Langage de programmation principal
